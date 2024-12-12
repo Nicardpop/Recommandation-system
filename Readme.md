@@ -79,3 +79,7 @@ F1 Score for the user 42: 61.54 /100
 - [MovieLens Dataset](https://grouplens.org/datasets/movielens/)
 - [Scikit-learn Documentation](https://scikit-learn.org/)
 - [Building Recommendation Engines Book](https://unidel.edu.ng/focelibrary/books/Gorakala,%20Suresh%20K%20-%20Building%20recommendation%20engines_%20understand%20your%20data%20and%20user%20preferences%20to%20make%20intelligent,%20accurate,%20and%20profitable%20decisions-Packt%20Publishing%20(2016).pdf)
+
+## What is this ?
+This project was developed as part of my university coursework to explore and understand recommendation systems. It represents the culmination of my learning in this area, including implementing collaborative filtering techniques and evaluating their effectiveness. While I recognize that the project has room for improvement, such as expanding features and optimizing performance, it serves as a foundation for deeper exploration. Additionally, through this project, I enhanced my Python skills and learned a new language, R, which I plan to leverage in future endeavors to refine and expand this system.
+I hope it serves as a useful tool or learning resource. You're welcome to reach out with feedback or suggestions!

@@ -23,30 +23,22 @@ The project uses the [MovieLens](https://grouplens.org/datasets/movielens/) data
 - `ratings.csv`
 - `movies.csv`
 
-Place these files in the `ml-latest-small` folder within the project directory.
-
 ### Running the Code
-1. Clone this repository or copy the code into a Python script.
+1. Clone this repository.
 2. Ensure the `display` module (containing `display_intro` and `progress_bar` functions) is available or replace with your implementation.
 3. Run the script:
 
 ```bash
 python recommendation_system.py
 ```
+
 4. Input a user ID (between 1 and 500) when prompted to receive movie recommendations.
 
 ### Switching Similarity Measures
-By default, the system uses cosine similarity. To switch to Pearson correlation:
-
-1. Locate the following line in the code:
-   ```python
-   similarity_measure = 'cosine'  # Default similarity measure
-   ```
-2. Change `'cosine'` to `'pearson'`:
-   ```python
-   similarity_measure = 'pearson'
-   ```
-3. Save the file and re-run the script.
+To switch to Pearson correlation:
+Before inputting the user ID it will ask you which matrics you want to use :
+- input (1) for **cosine**
+- input (2) for **pearson**
 
 ## Code Structure
 - **Similarity Calculation**: The `calculate_similarity` function computes user similarity using the selected method.
@@ -57,10 +49,18 @@ By default, the system uses cosine similarity. To switch to Pearson correlation:
 ## Example Output
 ```plaintext
 Starting...
-
-WELCOME TO MY RECOMMENDATION ENGINE
-WITH ALMOST 600 USERS
-
+. _______________________________________________________  .
+|                                                          |
+|                 WELCOME TO MY RECOMMAN-                  |
+|                      DATION ENGINE                       |
+|                                                          |
+|                          BEGIN                           |
+|                                                          |
+. ________________________________________________________ .
+Choose similarity method ('cosine' or 'pearson'):
+ 1. cosine
+ 2. pearson
+1
 ENTER USER ID (between 1 and 500): 42
 
 Similar users to the user 42: [123, 87, 56, 98, 45]

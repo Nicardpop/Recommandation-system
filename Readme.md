@@ -31,11 +31,10 @@ The project uses the [MovieLens](https://grouplens.org/datasets/movielens/) data
 ```bash
 python recommendation_system.py
 ```
-
-4. Input a user ID (between 1 and 500) when prompted to receive movie recommendations.
+4. Input which 1 or 2 to choose between the two matrics . 
+5. Input a user ID (between 1 and 500) when prompted to receive movie recommendations.
 
 ### Switching Similarity Measures
-To switch to Pearson correlation:
 Before inputting the user ID it will ask you which matrics you want to use :
 - input (1) for **cosine**
 - input (2) for **pearson**
@@ -76,15 +75,7 @@ Recall for the user 42: 50.00 /100
 F1 Score for the user 42: 61.54 /100
 ```
 
-## Challenges and Future Enhancements
-- **Challenges**:
-  - Finding and preparing a suitable dataset.
-  - Handling sparse data in the user-item matrix.
-- **Future Work**:
-  - Add hybrid filtering by combining collaborative and content-based techniques.
-  - Optimize for larger datasets and improve scalability.
-  - Incorporate contextual factors like time, location, and device type.
-
 ## References
 - [MovieLens Dataset](https://grouplens.org/datasets/movielens/)
 - [Scikit-learn Documentation](https://scikit-learn.org/)
+- [Building Recommendation Engines Book](https://unidel.edu.ng/focelibrary/books/Gorakala,%20Suresh%20K%20-%20Building%20recommendation%20engines_%20understand%20your%20data%20and%20user%20preferences%20to%20make%20intelligent,%20accurate,%20and%20profitable%20decisions-Packt%20Publishing%20(2016).pdf)
